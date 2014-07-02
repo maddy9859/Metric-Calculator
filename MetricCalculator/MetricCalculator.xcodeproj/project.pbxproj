@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7829AF1960BB77004B92F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7829AE1960BB77004B92F2 /* Foundation.framework */; };
+		AB7829B11960BB77004B92F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7829B01960BB77004B92F2 /* CoreGraphics.framework */; };
+		AB7829B31960BB77004B92F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7829B21960BB77004B92F2 /* UIKit.framework */; };
+		AB7829B91960BB77004B92F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB7829B71960BB77004B92F2 /* InfoPlist.strings */; };
+		AB7829BB1960BB77004B92F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7829BA1960BB77004B92F2 /* main.m */; };
+		AB7829BF1960BB77004B92F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7829BE1960BB77004B92F2 /* AppDelegate.m */; };
+		AB7829C11960BB77004B92F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7829C01960BB77004B92F2 /* Images.xcassets */; };
+		AB7829C81960BB77004B92F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7829C71960BB77004B92F2 /* XCTest.framework */; };
+		AB7829C91960BB77004B92F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7829AE1960BB77004B92F2 /* Foundation.framework */; };
+		AB7829CA1960BB77004B92F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7829B21960BB77004B92F2 /* UIKit.framework */; };
+		AB7829D21960BB77004B92F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB7829D01960BB77004B92F2 /* InfoPlist.strings */; };
+		AB7829D41960BB77004B92F2 /* MetricCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7829D31960BB77004B92F2 /* MetricCalculatorTests.m */; };
+		AB7829E61960BB88004B92F2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7829DE1960BB88004B92F2 /* HomeViewController.m */; };
+		AB7829E71960BB88004B92F2 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7829DF1960BB88004B92F2 /* HomeViewController.xib */; };
+		AB7829E81960BB88004B92F2 /* Metrics.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7829E11960BB88004B92F2 /* Metrics.m */; };
+		AB7829E91960BB88004B92F2 /* Metric.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7829E31960BB88004B92F2 /* Metric.m */; };
+		AB7829EA1960BB88004B92F2 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7829E51960BB88004B92F2 /* Unit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB7829CB1960BB77004B92F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7829A31960BB77004B92F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7829AA1960BB77004B92F2;
+			remoteInfo = MetricCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB7829AB1960BB77004B92F2 /* MetricCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7829AE1960BB77004B92F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB7829B01960BB77004B92F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB7829B21960BB77004B92F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB7829B61960BB77004B92F2 /* MetricCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetricCalculator-Info.plist"; sourceTree = "<group>"; };
+		AB7829B81960BB77004B92F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB7829BA1960BB77004B92F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB7829BC1960BB77004B92F2 /* MetricCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MetricCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		AB7829BD1960BB77004B92F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB7829BE1960BB77004B92F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB7829C01960BB77004B92F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB7829C61960BB77004B92F2 /* MetricCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetricCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7829C71960BB77004B92F2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AB7829CF1960BB77004B92F2 /* MetricCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetricCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		AB7829D11960BB77004B92F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB7829D31960BB77004B92F2 /* MetricCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetricCalculatorTests.m; sourceTree = "<group>"; };
+		AB7829DD1960BB88004B92F2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AB7829DE1960BB88004B92F2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		AB7829DF1960BB88004B92F2 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		AB7829E01960BB88004B92F2 /* Metrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Metrics.h; sourceTree = "<group>"; };
+		AB7829E11960BB88004B92F2 /* Metrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Metrics.m; sourceTree = "<group>"; };
+		AB7829E21960BB88004B92F2 /* Metric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Metric.h; sourceTree = "<group>"; };
+		AB7829E31960BB88004B92F2 /* Metric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Metric.m; sourceTree = "<group>"; };
+		AB7829E41960BB88004B92F2 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		AB7829E51960BB88004B92F2 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7829A81960BB77004B92F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7829B11960BB77004B92F2 /* CoreGraphics.framework in Frameworks */,
+				AB7829B31960BB77004B92F2 /* UIKit.framework in Frameworks */,
+				AB7829AF1960BB77004B92F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7829C31960BB77004B92F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7829C81960BB77004B92F2 /* XCTest.framework in Frameworks */,
+				AB7829CA1960BB77004B92F2 /* UIKit.framework in Frameworks */,
+				AB7829C91960BB77004B92F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7829A21960BB77004B92F2 = {
+			isa = PBXGroup;
+			children = (
+				AB7829B41960BB77004B92F2 /* MetricCalculator */,
+				AB7829CD1960BB77004B92F2 /* MetricCalculatorTests */,
+				AB7829AD1960BB77004B92F2 /* Frameworks */,
+				AB7829AC1960BB77004B92F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7829AC1960BB77004B92F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7829AB1960BB77004B92F2 /* MetricCalculator.app */,
+				AB7829C61960BB77004B92F2 /* MetricCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7829AD1960BB77004B92F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB7829AE1960BB77004B92F2 /* Foundation.framework */,
+				AB7829B01960BB77004B92F2 /* CoreGraphics.framework */,
+				AB7829B21960BB77004B92F2 /* UIKit.framework */,
+				AB7829C71960BB77004B92F2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB7829B41960BB77004B92F2 /* MetricCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				AB7829BD1960BB77004B92F2 /* AppDelegate.h */,
+				AB7829BE1960BB77004B92F2 /* AppDelegate.m */,
+				AB7829DD1960BB88004B92F2 /* HomeViewController.h */,
+				AB7829DE1960BB88004B92F2 /* HomeViewController.m */,
+				AB7829DF1960BB88004B92F2 /* HomeViewController.xib */,
+				AB7829E01960BB88004B92F2 /* Metrics.h */,
+				AB7829E11960BB88004B92F2 /* Metrics.m */,
+				AB7829E21960BB88004B92F2 /* Metric.h */,
+				AB7829E31960BB88004B92F2 /* Metric.m */,
+				AB7829E41960BB88004B92F2 /* Unit.h */,
+				AB7829E51960BB88004B92F2 /* Unit.m */,
+				AB7829C01960BB77004B92F2 /* Images.xcassets */,
+				AB7829B51960BB77004B92F2 /* Supporting Files */,
+			);
+			path = MetricCalculator;
+			sourceTree = "<group>";
+		};
+		AB7829B51960BB77004B92F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7829B61960BB77004B92F2 /* MetricCalculator-Info.plist */,
+				AB7829B71960BB77004B92F2 /* InfoPlist.strings */,
+				AB7829BA1960BB77004B92F2 /* main.m */,
+				AB7829BC1960BB77004B92F2 /* MetricCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB7829CD1960BB77004B92F2 /* MetricCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7829D31960BB77004B92F2 /* MetricCalculatorTests.m */,
+				AB7829CE1960BB77004B92F2 /* Supporting Files */,
+			);
+			path = MetricCalculatorTests;
+			sourceTree = "<group>";
+		};
+		AB7829CE1960BB77004B92F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7829CF1960BB77004B92F2 /* MetricCalculatorTests-Info.plist */,
+				AB7829D01960BB77004B92F2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7829AA1960BB77004B92F2 /* MetricCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7829D71960BB77004B92F2 /* Build configuration list for PBXNativeTarget "MetricCalculator" */;
+			buildPhases = (
+				AB7829A71960BB77004B92F2 /* Sources */,
+				AB7829A81960BB77004B92F2 /* Frameworks */,
+				AB7829A91960BB77004B92F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetricCalculator;
+			productName = MetricCalculator;
+			productReference = AB7829AB1960BB77004B92F2 /* MetricCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB7829C51960BB77004B92F2 /* MetricCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7829DA1960BB77004B92F2 /* Build configuration list for PBXNativeTarget "MetricCalculatorTests" */;
+			buildPhases = (
+				AB7829C21960BB77004B92F2 /* Sources */,
+				AB7829C31960BB77004B92F2 /* Frameworks */,
+				AB7829C41960BB77004B92F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7829CC1960BB77004B92F2 /* PBXTargetDependency */,
+			);
+			name = MetricCalculatorTests;
+			productName = MetricCalculatorTests;
+			productReference = AB7829C61960BB77004B92F2 /* MetricCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7829A31960BB77004B92F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Maddy;
+				TargetAttributes = {
+					AB7829C51960BB77004B92F2 = {
+						TestTargetID = AB7829AA1960BB77004B92F2;
+					};
+				};
+			};
+			buildConfigurationList = AB7829A61960BB77004B92F2 /* Build configuration list for PBXProject "MetricCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB7829A21960BB77004B92F2;
+			productRefGroup = AB7829AC1960BB77004B92F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7829AA1960BB77004B92F2 /* MetricCalculator */,
+				AB7829C51960BB77004B92F2 /* MetricCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7829A91960BB77004B92F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7829B91960BB77004B92F2 /* InfoPlist.strings in Resources */,
+				AB7829C11960BB77004B92F2 /* Images.xcassets in Resources */,
+				AB7829E71960BB88004B92F2 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7829C41960BB77004B92F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7829D21960BB77004B92F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7829A71960BB77004B92F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7829BF1960BB77004B92F2 /* AppDelegate.m in Sources */,
+				AB7829BB1960BB77004B92F2 /* main.m in Sources */,
+				AB7829E61960BB88004B92F2 /* HomeViewController.m in Sources */,
+				AB7829EA1960BB88004B92F2 /* Unit.m in Sources */,
+				AB7829E91960BB88004B92F2 /* Metric.m in Sources */,
+				AB7829E81960BB88004B92F2 /* Metrics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7829C21960BB77004B92F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7829D41960BB77004B92F2 /* MetricCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB7829CC1960BB77004B92F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7829AA1960BB77004B92F2 /* MetricCalculator */;
+			targetProxy = AB7829CB1960BB77004B92F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB7829B71960BB77004B92F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7829B81960BB77004B92F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB7829D01960BB77004B92F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7829D11960BB77004B92F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7829D51960BB77004B92F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB7829D61960BB77004B92F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB7829D81960BB77004B92F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetricCalculator/MetricCalculator-Prefix.pch";
+				INFOPLIST_FILE = "MetricCalculator/MetricCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB7829D91960BB77004B92F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetricCalculator/MetricCalculator-Prefix.pch";
+				INFOPLIST_FILE = "MetricCalculator/MetricCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB7829DB1960BB77004B92F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MetricCalculator.app/MetricCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetricCalculator/MetricCalculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MetricCalculatorTests/MetricCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB7829DC1960BB77004B92F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MetricCalculator.app/MetricCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MetricCalculator/MetricCalculator-Prefix.pch";
+				INFOPLIST_FILE = "MetricCalculatorTests/MetricCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7829A61960BB77004B92F2 /* Build configuration list for PBXProject "MetricCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7829D51960BB77004B92F2 /* Debug */,
+				AB7829D61960BB77004B92F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7829D71960BB77004B92F2 /* Build configuration list for PBXNativeTarget "MetricCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7829D81960BB77004B92F2 /* Debug */,
+				AB7829D91960BB77004B92F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB7829DA1960BB77004B92F2 /* Build configuration list for PBXNativeTarget "MetricCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7829DB1960BB77004B92F2 /* Debug */,
+				AB7829DC1960BB77004B92F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB7829A31960BB77004B92F2 /* Project object */;
+}
